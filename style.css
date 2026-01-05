@@ -1,0 +1,222 @@
+/* ================= RESET ================= */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+/* ================= BODY ================= */
+body {
+    background: linear-gradient(180deg, #000, #1a1a1a);
+    color: #f5d27b;
+}
+
+/* ================= BANNER ================= */
+.banner {
+    text-align: center;
+    padding: 90px 20px;
+    background: linear-gradient(120deg, #000, #2a1f00, #000);
+    border-bottom: 2px solid gold;
+}
+
+.banner h1 {
+    font-size: 44px;
+    color: gold;
+}
+
+.subtitle {
+    font-size: 20px;
+    margin: 10px 0;
+}
+
+#clock {
+    margin-top: 10px;
+    font-size: 18px;
+}
+
+/* ================= MENU ================= */
+.menu {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    padding: 15px;
+    background: #000;
+    border-bottom: 1px solid gold;
+}
+
+.menu a {
+    color: gold;
+    text-decoration: none;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.menu a:hover {
+    color: #f5d27b;
+}
+
+/* ================= CARD GLOBAL ================= */
+.card,
+.tips-card,
+.form-card {
+    background: linear-gradient(145deg, #111, #2a1f00);
+    border: 1px solid gold;
+    border-radius: 18px;
+    transition: 0.3s;
+}
+
+/* ================= JENIS KUCING ================= */
+.cats {
+    padding: 40px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 25px;
+}
+
+.card {
+    padding: 20px;
+    cursor: pointer;
+}
+
+.card:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 10px 30px rgba(255, 215, 0, 0.3);
+}
+
+.card img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 12px;
+    border: 1px solid gold;
+    margin-bottom: 10px;
+}
+
+.card h3 {
+    color: gold;
+    margin-bottom: 8px;
+}
+
+.desc {
+    display: none;
+    font-size: 14px;
+    line-height: 1.6;
+}
+
+/* ================= TIPS ================= */
+.tips {
+    padding: 40px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    gap: 25px;
+}
+
+.tips-card {
+    padding: 25px;
+}
+
+.tips-card:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 10px 30px rgba(255, 215, 0, 0.3);
+}
+
+.tips-card h3 {
+    color: gold;
+    margin-bottom: 10px;
+}
+
+.tips-card p {
+    font-size: 14px;
+    line-height: 1.6;
+}
+
+/* ================= FORM ================= */
+.form-section {
+    padding: 40px;
+    text-align: center;
+}
+
+.form-section h2 {
+    color: gold;
+    margin-bottom: 20px;
+}
+
+.form-card {
+    max-width: 420px;
+    margin: auto;
+    padding: 25px;
+}
+
+.form-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 10px 30px rgba(255, 215, 0, 0.3);
+}
+
+.form-group {
+    margin-bottom: 15px;
+    text-align: left;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 6px;
+    font-size: 14px;
+    color: #f5d27b;
+}
+
+.form-group input,
+.form-group select,
+.form-group textarea {
+    width: 100%;
+    padding: 8px 10px;
+    background: #000;
+    color: gold;
+    border: 1px solid gold;
+    border-radius: 8px;
+    font-size: 14px;
+    outline: none;
+}
+
+.form-group textarea {
+    resize: none;
+    height: 90px;
+}
+
+.form-group input:focus,
+.form-group select:focus,
+.form-group textarea:focus {
+    border-color: #f5d27b;
+}
+
+/* BUTTON FORM */
+.form-btn {
+    width: 100%;
+    margin-top: 10px;
+    padding: 10px;
+    background: gold;
+    color: #000;
+    font-weight: bold;
+    border: none;
+    border-radius: 12px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.form-btn:hover {
+    background: #f5d27b;
+}
+
+/* OUTPUT */
+#output {
+    margin-top: 15px;
+    font-size: 14px;
+}
+
+/* ================= FOOTER ================= */
+footer {
+    padding: 20px;
+    text-align: center;
+    background: #000;
+    border-top: 1px solid gold;
+}

@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <title>Dunia Kucing</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body onload="startClock()">
+
+    <!-- BANNER -->
+    <header class="banner">
+        <h1>🐾 Dunia Kucing</h1>
+        <p class="subtitle">Jenis-Jenis Kucing Populer</p>
+        <div id="clock"></div>
+    </header>
+
+    <!-- MENU -->
+    <nav class="menu">
+        <a href="index.html">Home</a>
+        <a href="Tips.html">Tips</a>
+        <a href="contact.html">Contact</a>
+        <a href="form.html">Form</a>
+    </nav>
+
+    <!-- JENIS KUCING -->
+    <section class="cats">
+
+        <div class="card" onclick="toggleDesc(this)">
+            <img src="gambar/persia1.jpg" alt="Persia">
+            <h3>Persia</h3>
+            <p class="desc">
+                Kucing Persia memiliki bulu panjang, wajah bulat,
+                dan sifat tenang. Cocok sebagai kucing rumahan.
+            </p>
+        </div>
+
+        <div class="card" onclick="toggleDesc(this)">
+            <img src="gambar/maine coon1.jpg" alt="Maine Coon">
+            <h3>Maine Coon</h3>
+            <p class="desc">
+                Maine Coon adalah kucing besar, ramah,
+                cerdas, dan mudah beradaptasi.
+            </p>
+        </div>
+
+        <div class="card" onclick="toggleDesc(this)">
+            <img src="gambar/bengal1.jpg" alt="Bengal">
+            <h3>Bengal</h3>
+            <p class="desc">
+                Bengal memiliki pola eksotis seperti macan tutul
+                dan sangat aktif.
+            </p>
+        </div>
+
+        <div class="card" onclick="toggleDesc(this)">
+            <img src="gambar/siamese1.jpg" alt="Siamese">
+            <h3>Siamese</h3>
+            <p class="desc">
+                Siamese terkenal dengan mata biru,
+                suara khas, dan sangat setia.
+            </p>
+        </div>
+
+    </section>
+
+    <footer>
+        <p>©Rissa 2026 </p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

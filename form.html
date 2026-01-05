@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <title>Form Komentar</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="banner">
+    <h1>📝 Form Komentar</h1>
+</header>
+
+<nav class="menu">
+    <a href="index.html">Home</a>
+    <a href="Tips.html">Tips</a>
+    <a href="contact.html">Contact</a>
+    <a href="form.html">Form</a>
+</nav>
+
+<section class="form-section">
+    <h2>Komentar Pengunjung</h2>
+
+    <form onsubmit="kirimForm(event)">
+        <label>Nama</label>
+        <input type="text" id="nama" required>
+
+        <label>Kucing Favorit</label>
+        <select id="favorit">
+            <option>Persia</option>
+            <option>Maine Coon</option>
+            <option>Bengal</option>
+            <option>Siamese</option>
+        </select>
+
+        <label>Pesan</label>
+        <textarea id="pesan"></textarea>
+
+        <button type="submit">Kirim</button>
+    </form>
+
+    <p id="output"></p>
+</section>
+
+<footer>
+    <p>©Rissa 2026 </p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
